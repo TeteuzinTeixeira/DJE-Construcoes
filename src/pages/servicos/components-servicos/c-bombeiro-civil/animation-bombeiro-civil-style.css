@@ -1,0 +1,88 @@
+.container-animation-bombeiro-civil{
+    padding-right: 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: auto;
+}
+
+.box-image-servicos-bombeiro-civil{
+    display: flex;
+    gap: 5px;
+    width: auto;
+}
+
+.image-bombeiro-civil-animation{
+    transition: 1s; 
+    object-fit: cover;
+    border-radius: 60px;
+}
+
+.image-bombeiro-civil-animation:hover{
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+@media(max-width:1600px){
+    .container-animation-bombeiro-civil{
+        padding-right: 1rem;
+    }
+
+    .image-bombeirocivil1{
+        width: 300px;
+    }
+
+    .image-bombeirocivil2{
+        height: 20rem;
+    }
+}
+
+@media(max-width:1440px){
+    .container-animation-bombeiro-civil{
+        padding-right: 0rem;
+    }
+
+    .image-bombeirocivil1{
+        width: 280px;
+    }
+
+    .image-bombeirocivil2{
+        height: 18rem;
+    }
+}
+
+@media(max-width:600px){
+
+    .container-animation-bombeiro-civil{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image-bombeirocivil1{
+        width: 180px;
+    }
+
+    .image-bombeirocivil2{
+        height:14rem;
+    }
+}
+@media(max-width:390px){
+    .image-bombeirocivil1{
+        width: 140px;
+    }
+
+    .image-bombeirocivil2{
+        height:11rem;
+    }
+}
+
+@media(max-width:300px){
+    .image-bombeirocivil1{
+        width: 240px;
+    }
+
+    .image-bombeirocivil2{
+        height:9rem;
+    }
+}

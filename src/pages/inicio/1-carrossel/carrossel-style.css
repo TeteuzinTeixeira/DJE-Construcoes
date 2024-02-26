@@ -1,0 +1,172 @@
+
+/* .carousel.carousel-slider .control-arrow {
+   width: 5rem;
+   
+}   */
+
+.carousel.carousel-slider .control-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.055);
+}
+
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 10px solid white;
+}
+.carousel .control-next.control-arrow:before {
+    border-left: 10px solid white;
+}
+
+.Carrossel {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 1080px;
+}
+
+.container-carousel,
+.box-carousel {
+    width: 100%;
+    height: 100vh;
+    max-height: 1080px;
+}
+
+
+.img-carousel {
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    z-index: 1;
+}
+
+.bg-color-carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000005e;
+    /* Cor de fundo da imagem com transparência */
+    z-index: 1;
+}
+
+.box-text-carousel {
+    width: 65%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    text-align: left;
+    padding-left: 4rem;
+
+    color: white;
+
+    gap: 1rem;
+
+}
+
+.title-carousel {
+    font-size: 4.3em;
+    font-weight: bold;
+}
+
+.text-carousel {
+    font-size: 2em;
+    font-weight: 400;
+    width: 80%;
+
+}
+
+
+@media(max-width:1444px) {
+
+    .box-text-carousel {
+        width: 65%;
+    }
+
+    .title-carousel {
+        font-size: 3.5em;
+    }
+
+    .text-carousel {
+        font-size: 1.6em;
+    }
+}
+
+@media(max-width:868px) {
+
+    .box-text-carousel {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .title-carousel {
+        font-size: 3.5em;
+    }
+
+    .text-carousel {
+        font-size: 1.5em;
+    }
+
+    .bg-color-carousel {
+        background: #0000003c;
+    }
+
+}
+@media(max-width: 625px) {
+    .img-carousel{
+        background-position: center;
+    }
+}
+
+@media(max-width: 525px) {
+
+    .bg-color-carousel {
+        background: #0000005e;
+    }
+
+    .Carrossel,
+    .container-carousel,
+    .box-carousel {
+       
+        height: 60vh;
+        /* Essa regra deve ser aplicada em telas menores que 525px */
+    }
+
+    .box-text-carousel {
+        width: 100%;
+        padding-left: 25px;
+    }
+
+    .title-carousel {
+        font-size: 2.2em;
+    }
+
+    .text-carousel {
+      display: none;
+    }
+
+}
+
+@media(max-width: 425px) {
+    .title-carousel {
+        font-size: 2em;
+    }
+}
+
+@media (orientation: portrait) {
+
+    .Carrossel,
+    .container-carousel,
+    .box-carousel {
+        max-height: 50rem;
+    }
+
+}

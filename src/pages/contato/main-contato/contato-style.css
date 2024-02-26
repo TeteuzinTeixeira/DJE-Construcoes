@@ -1,0 +1,38 @@
+.contato{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container-contato{
+    width: 100%;
+    height: 100vh;
+    
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+@media(max-height: 1366px){
+    .container-contato{
+        margin-top: 6rem !important;
+    }
+}
+
+
+@media(max-height: 768px){
+    .container-contato{
+        margin-top: 4rem;
+        height: 50rem;
+    }
+}
+
+@media(max-width: 868px){
+    .container-contato{
+        margin-top: 5rem;
+        height: auto;
+    }
+}

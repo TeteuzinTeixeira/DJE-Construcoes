@@ -1,0 +1,86 @@
+.container-animation-saude-ocupacional {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  
+  .image-saude-ocupacional {
+    height: 510px;
+    margin:10px ;
+    width:auto;    
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: scale(1);
+     
+    }
+    50% {
+      transform: scale(1.03);
+    }
+  }
+  
+ 
+.bounce-animation-saude-ocupacional {
+    animation: bounce 4.2s infinite; 
+  }
+
+ .bounce-animation-delay-1-saude-ocupacional {
+  animation-delay: 1s; 
+}
+
+.bounce-animation-delay-2-saude-ocupacional {
+  animation-delay: 2s; 
+}
+
+.bounce-animation-delay-3-saude-ocupacional {
+  animation-delay: 3s; 
+}
+
+
+@media(max-width:1650px){
+  .image-saude-ocupacional {
+    height: 320px;
+    margin:10px ;
+
+  }
+}
+
+@media(max-width:1440px){
+  .image-saude-ocupacional {
+    height: 270px;
+    margin:10px ;
+
+  }
+}
+
+@media(max-width:1300px){
+
+  .container-animation-saude-ocupacional{
+    width: 100%;
+    justify-content: center;
+   
+      
+  }
+}
+
+
+
+@media(max-width:580px){
+  .image-saude-ocupacional {
+    height: auto;
+    width: 60%;
+    margin:10px ;
+    
+    
+  }
+  .container-animation-saude-ocupacional {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+  }
+
+}
