@@ -35,7 +35,7 @@ export default function Formulario(props){
 
             <div className="container-right-formulario">
 
-                <MapsCompany corTexto="#A80D05" imgLineVertical={props.imageLineVertical}/>
+                <MapsCompany corTexto="#2E4368" imgLineVertical={props.imageLineVertical}/>
                 
             </div>
 

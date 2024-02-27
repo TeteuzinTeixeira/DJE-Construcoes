@@ -3,11 +3,9 @@
     flex-direction: column;
     gap: 2rem;
 
-
     justify-content: center;
     align-items: center;
     width: auto;
-
 }
 
 .title-maps {
@@ -22,8 +20,6 @@
     align-items: center;
     gap: 3rem;
 }
-
-
 
 .box-maps-unidade {
     display: flex;
@@ -45,8 +41,8 @@
 }
 
 iframe {
-    width: 608px;
-    height: 364px;
+    width: 800px;
+    height: 400px;
 }
 
 .line-horizontal {
