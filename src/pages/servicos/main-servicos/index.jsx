@@ -49,8 +49,8 @@ export default function Servicos() {
                             <li>eSocial (S-2210, S-2220 e S-2240);</li>
                             <li>Perícias Trabalhistas – Insalubridade/Periculosidade;</li>
                             <li>Prevenção de Combate a Incêndio;</li>
-                            <li><a href="https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs" target='blank'>Normas Regulamentadoras;</a></li>
-                            <li><a href="https://bombeiros.com.br/instrucoes-tecnicas/" target='blank'>Instruções Técnicas;</a></li>
+                            <li><a href="" target='blank'>Normas Regulamentadoras;</a></li>
+                            <li><a href="" target='blank'>Instruções Técnicas;</a></li>
                             <li>Outros....</li>
                         </ul>
                     </div>

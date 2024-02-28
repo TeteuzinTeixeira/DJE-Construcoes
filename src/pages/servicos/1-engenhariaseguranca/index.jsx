@@ -44,8 +44,8 @@ export default function EngenhariaSeguranca() {
                         <li>Perícias Trabalhistas – Insalubridade/Periculosidade;</li>
                         <li>Perícia Grafotécnica</li>
                         <li>Prevenção de Combate a Incêndio;</li>
-                        <li><a href="https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/seguranca-e-saude-no-trabalho/ctpp-nrs/normas-regulamentadoras-nrs" target="blank">Normas Regulamentadoras;</a></li>
-                        <li><a href="https://bombeiros.com.br/instrucoes-tecnicas/" target="blank">Instruções Técnicas;</a></li>
+                        <li><a href="" target="blank">Normas Regulamentadoras;</a></li>
+                        <li><a href="" target="blank">Instruções Técnicas;</a></li>
                         <li>Outros....</li>
                     </ul>
 

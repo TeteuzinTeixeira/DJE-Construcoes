@@ -43,7 +43,7 @@ export default function Footer() {
                     <div className="left-box-footer">
 
                         <img src={telIcon} alt="" className="left-icons-footer" />
-                        <a href="tel:12997861201" className="left-text-footer" >
+                        <a href="" className="left-text-footer" >
                             (12) 99786-1201
                         </a>
 
@@ -62,15 +62,15 @@ export default function Footer() {
 
                 <div className="container-central-footer">
 
-                    <a href="https://www.facebook.com/ImpactoEngenhariadeSegurancaeMeioAmbiente" target='blank'>
+                    <a href="" target='blank'>
                         <img src={facebookIcon} className="central-icons-footer" />
                     </a>
 
-                    <a href="https://www.instagram.com/impacto_eng/" target='blank'>
+                    <a href="" target='blank'>
                         <img src={instagramIcon} className="central-icons-footer" />
                     </a>
 
-                    <a href="https://www.linkedin.com/company/impacto-engenharia-de-seguranca-e-meio-ambiente/" target='blank'>
+                    <a href="" target='blank'>
                         <img src={linkedinIcon} className="central-icons-footer" />
                     </a>
 

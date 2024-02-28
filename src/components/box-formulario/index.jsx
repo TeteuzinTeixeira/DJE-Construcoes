@@ -47,7 +47,7 @@ export default function BoxFormulario() {
       telefone: telefone
     }
 
-    emailjs.send("service_1ugpqg9", "template_q7gkglp", templateParams, "brRGyQiGYVke7oATN")
+    emailjs.send()
       .then((response) => {
         setNome('')
         setEmail('')
