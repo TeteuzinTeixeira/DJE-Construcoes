@@ -62,14 +62,13 @@ export default function Header() {
 
 
                 <div className="box-buttons-servicos"
-                    onMouseEnter={() => SetViewListServicos(true)}
-                    onMouseLeave={() => SetViewListServicos(false)}
-                    onClick={showHeader ? () => SetViewListServicos(!viewListServicos) : null}
+                    // onMouseEnter={() => SetViewListServicos(true)}
+                    // onMouseLeave={() => SetViewListServicos(false)}
+                    // onClick={showHeader ? () => SetViewListServicos(!viewListServicos) : null}
                 >
 
-                    <button className="button-header button-servico" onClick={() => navigate('/servicos')}>
+                    <button className="button-header button-servico">
                         SERVIÇOS
-                        {viewListServicos ? <FaCaretUp /> : <FaCaretDown />}
                     </button>
 
                     {viewListServicos &&
@@ -83,7 +82,7 @@ export default function Header() {
                         </ul>
                     }
 
-            </div>
+                </div>
 
 
             <button className="button-header button-header-faca-seu-orçamento" onClick={() => {window.scrollTo(0, 0); navigate('/contato')}}>
